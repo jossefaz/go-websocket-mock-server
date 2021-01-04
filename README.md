@@ -19,7 +19,7 @@ For the current version you can customize it through 2 environment variables :
 
 ---
 
-You can easily run the dockerfile and run it. It will expose the port 8085
+You can easily build the dockerfile and run it. It will expose the port 8085
 
 First build the image :
 
