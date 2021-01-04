@@ -5,7 +5,7 @@
 
 ---
 
-This project is a runs a simple HTTP server that allows to test client applications that needs to consume WebSocket.
+This project contains a simple HTTP server that allows to test client applications that needs to consume WebSocket.
 
 For the current version you can customize it through 2 environment variables :
 
@@ -36,5 +36,5 @@ docker run -p 8089:8085 jossefaz/web-socket-mock:latest
 If you want to customize the interval and the message
 
 ```shell
-docker run -p 8089:8085 --env MESSAGE_INTERVAL=2 --MOCK_MESSAGE=[{"test": "ok"}] yossefaz/web-socket-mock:latest 
+docker run -p 8089:8085 --env MESSAGE_INTERVAL=2 --MOCK_MESSAGE=[{"test": "ok"}] jossefaz/web-socket-mock:latest 
 ```
